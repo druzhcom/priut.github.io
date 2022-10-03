@@ -18,11 +18,13 @@ const FooterNav = ({
       className={classes}
     >
       <ul className="list-reset">
+      <div className="footer-copyright"><a href="/оферта.pdf">Оферта</a> {" "} </div>
+
         <li>
           <a href="tel:+79252325524">+7 (925) 232-55-24</a>
         </li>
         <li>
-          <a href="tg://resolve?domain=didexBot">Написать в Телеграм</a>
+          <a href="tg://resolve?domain=didexBot">Телеграм</a>
         </li>
         {/* <li>
           <Link to="#0">FAQ's</Link>

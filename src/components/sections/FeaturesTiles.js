@@ -154,7 +154,7 @@ const FeaturesTiles = ({
                     Оплата
                   </h4>
                   <p className="m-0 text-sm">
-                    Еженедельная или ежемесячная
+                    Больше растений - меньше цена
                   </p>
                 </div>
               </div>
@@ -202,7 +202,7 @@ const FeaturesTiles = ({
                     Удобство
                   </h4>
                   <p className="m-0 text-sm">
-                    Доставка* от вас в приют
+                    Сами доставим от вас в приют
                   </p>
                 </div>
               </div>

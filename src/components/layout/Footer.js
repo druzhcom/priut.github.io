@@ -52,7 +52,7 @@ const Footer = ({
           </div>
           <div className="footer-bottom space-between text-xxs invert-order-desktop">
             <FooterNav />
-            <div className="footer-copyright">Сделано <a href="#">ООО "Дружининъ"</a> {" "} </div>
+            <div className="footer-copyright">Сделано <a href="https://druzh.tech">ООО "Дружининъ"</a> {" "} </div>
 
           </div>
         </div>

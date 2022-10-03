@@ -5,6 +5,12 @@
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+  margin: 50;
+}
+
+.brand{
+  margin: 50;
+
 }
 
 @media (prefers-reduced-motion: no-preference) {

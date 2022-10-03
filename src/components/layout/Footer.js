@@ -4,7 +4,9 @@ import classNames from 'classnames';
 import Logo from './partials/Logo';
 import FooterNav from './partials/FooterNav';
 import FooterSocial from './partials/FooterSocial';
-import logo from '../../assets/images/logo.svg';
+// import logo from '../../assets/images/logo.svg';
+import logo from '../../assets/images/logo.png';
+
 
 const propTypes = {
   topOuterDivider: PropTypes.bool,
@@ -42,7 +44,9 @@ const Footer = ({
           )}>
           <div className="footer-top space-between text-xxs">
             {/* <Logo /> */}
-            <img src={logo} className="App-logo" alt="priut.pro" />
+            <img src={logo} width={50}
+              height={50} className="App-logo" alt="priut.pro" />
+
 
             <FooterSocial />
           </div>

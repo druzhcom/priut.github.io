@@ -22,7 +22,7 @@ const FooterNav = ({
           <tel>+7 (925) 232-55-24</tel>
         </li>
         <li>
-          <Link to="tg://resolve?domain=didexBot">Написать в Телеграм</Link>
+          <a href="tg://resolve?domain=didexBot">Написать в Телеграм</a>
         </li>
         {/* <li>
           <Link to="#0">FAQ's</Link>

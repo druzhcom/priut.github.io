@@ -3,7 +3,9 @@ import PropTypes from 'prop-types';
 import classNames from 'classnames';
 import { Link } from 'react-router-dom';
 import Logo from './partials/Logo';
-import logo from '../../assets/images/logo.svg';
+// import logo from '../../assets/images/logo.svg';
+import logo from '../../assets/images/logo.png';
+
 import { YMInitializer } from 'react-yandex-metrika';
 
 const propTypes = {
@@ -46,7 +48,7 @@ const Header = ({
       document.removeEventListener('click', clickOutside);
       closeMenu();
     };
-  });  
+  });
 
   const openMenu = () => {
     document.body.classList.add('off-nav-is-active');
@@ -68,7 +70,7 @@ const Header = ({
     if (!nav.current) return
     if (!isActive || nav.current.contains(e.target) || e.target === hamburger.current) return;
     closeMenu();
-  }  
+  }
 
   const classes = classNames(
     'site-header',
@@ -82,15 +84,17 @@ const Header = ({
       className={classes}
     >
       <div className="container">
-      <YMInitializer accounts={[90626482]} />
+        <YMInitializer accounts={[90626482]} />
 
         <div className={
           classNames(
             'site-header-inner',
             bottomDivider && 'has-bottom-divider'
           )}>
-          {/* <Logo /> */}
-          <img src={logo} className="App-logo" alt="priut.pro" />
+
+          <img src={logo} width={50}
+            height={50} className="App-logo" alt="priut.pro" />
+          <Logo />
 
           {!hideNav &&
             <>

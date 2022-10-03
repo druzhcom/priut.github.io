@@ -67,6 +67,7 @@ const Hero = ({
               <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
                 Уезжаете и переживаете за свои растения?
                 <span className="text-color-primary"> Мы приютим.</span>
+                <p>Москва и Московская область.</p>
               </p>
               {/* <p className="m-0 mb-32" data-reveal-delay="400"></p> */}
 

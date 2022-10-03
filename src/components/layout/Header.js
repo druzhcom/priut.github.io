@@ -121,18 +121,27 @@ const Header = ({
                       'list-reset text-xs',
                       navPosition && `header-nav-${navPosition}`
                     )}>
-                    {/* <li>
-                      <Link to="#0" onClick={closeMenu}>Documentation</Link>
-                    </li> */}
+                       <li>
+                      Спросить в:
+                    </li>
+                    <li>
+                      <a href="tg://resolve?domain=didexBot">Telegram</a>
+                    </li>
+                    <li>
+                      <a href="tel:+79252325524">Телефон</a>
+                    </li>
+                    <li>
+                      <a href="https://wa.me/79252325524?text=Здравствуйте%2C+у+меня+есть+вопрос">What's App</a>
+                    </li>
                   </ul>
-                  {!hideSignin &&
+                  {/* {!hideSignin &&
                     <ul
                       className="list-reset header-nav-right"
                     >
-                      {/* <li>
-                        <Link to="#0" className="button button-primary button-wide-mobile button-sm" onClick={closeMenu}>Sign up</Link>
-                      </li> */}
-                    </ul>}
+                      <li>
+                        <Link to="#0" className="button button-secondary button-wide-mobile button-sm" onClick={closeMenu}>Телеграм</Link>
+                      </li>
+                    </ul>} */}
                 </div>
               </nav>
             </>}

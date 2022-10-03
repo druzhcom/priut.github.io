@@ -19,7 +19,7 @@ const FooterNav = ({
     >
       <ul className="list-reset">
         <li>
-          <tel>+7 (925) 232-55-24</tel>
+          <a href="tel:+79252325524">+7 (925) 232-55-24</a>
         </li>
         <li>
           <a href="tg://resolve?domain=didexBot">Написать в Телеграм</a>
@@ -30,6 +30,9 @@ const FooterNav = ({
         {/* <li>
           <Link to="#0">Support</Link>
         </li> */}
+        <li>
+          <a href="https://wa.me/79252325524?text=Здравствуйте%2C+у+меня+есть+вопрос">What's App</a>
+        </li>
       </ul>
     </nav>
   );

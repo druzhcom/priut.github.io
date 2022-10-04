@@ -18,7 +18,7 @@ const FooterNav = ({
       className={classes}
     >
       <ul className="list-reset">
-      <div className="footer-copyright"><a href="/оферта.pdf">Оферта</a> {" "} </div>
+      <div className="footer-copyright"><a href="/build/оферта.pdf">Оферта</a> {" "} </div>
 
         <li>
           <a href="tel:+79252325524">+7 (925) 232-55-24</a>
